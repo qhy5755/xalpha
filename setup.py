@@ -13,7 +13,7 @@ for f in excludes:
     absf = os.path.join(os.getcwd(), "xalpha", f)
     if os.path.exists(absf):
         shutil.move(absf, os.path.join(os.getcwd(), "xalpha", f + ".keep"))
-
+##说
 setuptools.setup(
     name="xalpha",
     version="0.11.0",
